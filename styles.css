@@ -138,7 +138,11 @@
 }
 
 @media (max-width: 600px) {
-  google-offer a {
+  div.google-offer {
+    display: none;
+  }
+
+  .google-offer a {
     text-decoration: none;
     font-size: 0.5rem;
   }
